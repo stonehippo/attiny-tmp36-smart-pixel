@@ -26,7 +26,6 @@
 
 // using GRBW, since the we have a RGBW NeoPixel
 tinyNeoPixel pixel = tinyNeoPixel(1, PIXEL_PIN, NEO_GRBW + NEO_KHZ800);
-//Adafruit_NeoPixel pixel = Adafruit_NeoPixel(1, PIXEL_PIN, NEO_GRBW + NEO_KHZ800);
 
 // use ADC 3
 int sensor_pin = A3;
